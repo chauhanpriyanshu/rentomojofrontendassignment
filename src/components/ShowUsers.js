@@ -26,7 +26,7 @@ const ShowUsers = (props) => {
               <td>{listValue.name}</td>
               <td>{listValue.company.name}</td>
               <td>
-                <NavLink to="/posts" activeClassName="active">
+                <NavLink to={`/posts`} activeClassName="active">
                     View Posts      
                 </NavLink>
               </td>
