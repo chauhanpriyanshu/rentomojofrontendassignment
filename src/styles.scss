@@ -1,5 +1,5 @@
-$base-text-color: #e17055;
-$link-color: #b55a44;
+$base-text-color: #55c0e1;
+$link-color: #3399b8;
 
 * {
   margin: 0;
@@ -13,7 +13,7 @@ body {
   color: $base-text-color;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -71,14 +71,23 @@ h1 {
   }
 }
 
-.story {
+table {
+  border: 3px solid black;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid gray;
+}
+
+.user {
   width: 80%;
   margin: 10px auto;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
 
-  .story-title {
+  .user-title {
     margin-bottom: 4px;
     a:link,
     a:visited {
@@ -92,7 +101,7 @@ h1 {
     }
   }
 
-  .story-info {
+  .user-info {
     color: $link-color;
     span {
       margin: 4px;
@@ -115,7 +124,7 @@ h1 {
   .nav-link {
     flex-direction: column;
   }
-  .story {
+  .user {
     width: 90%;
   }
 }

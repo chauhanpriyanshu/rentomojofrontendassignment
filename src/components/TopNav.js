@@ -5,7 +5,8 @@ const TopNav = () => {
   return (
     <React.Fragment>
       <h1>RentoMojo Frontend UI/UX Assignment</h1>
-      <div className="nav-link">
+      <h3>HomePage - User Table</h3>
+      {/* <div className="nav-link">
         <NavLink to="/top" activeClassName="active">
           Top Stories
         </NavLink>
@@ -15,7 +16,7 @@ const TopNav = () => {
         <NavLink to="/best" activeClassName="active">
           Best Stories
         </NavLink>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };
